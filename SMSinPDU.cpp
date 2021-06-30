@@ -3,7 +3,7 @@
 String SMSinPDU(String phoneNumber, String msg){
     // SMSinPDU takes a Phone number in international format, for example +98xxxxxxxxxx for Iran
     // and a text message and converts them to PDU(Protocol Data Unit) coding. PDU can be used
-    // in ATM command compatible hardwares for sending SMS.
+    // in AT command compatible hardwares for sending SMS.
 
     // Encoding packet header, including phone number and its format
     // For more info about PDU headers take a look at http://www.gsm-modem.de/sms-pdu-mode.html
